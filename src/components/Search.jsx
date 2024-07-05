@@ -15,13 +15,13 @@ function Search({ location, setLocation, searchLocation }) {
           <Form className="d-flex" onSubmit={e => e.preventDefault()}>
             <FormControl
               type="text"
-              placeholder="Enter Location"
+              placeholder="Scrivi la città..."
               className="mr-sm-2"
               value={location}
               onChange={event => setLocation(event.target.value)}
               onKeyDown={handleKeyDown}
             />
-            <Button variant="primary" onClick={searchLocation}>Search</Button>
+            <Button variant="primary" onClick={searchLocation}>Cerca</Button>
           </Form>
         </Col>
       </Row>
