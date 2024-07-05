@@ -36,7 +36,13 @@ function App() {
               setForecastData(data)
               console.log('Forecast data:', data)
             })
+        } else {
+          window.alert('Città non trovata.')
         }
+      })
+      .catch(error => {
+        console.error('Errore fetching località:', error)
+        window.alert('Errore nel riperimento dei dati.')
       })
 
     setLocation('')
