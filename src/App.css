@@ -78,7 +78,7 @@ body {
 }
 
 .forecast-card {
-  background-color: rgba(255, 255, 255, 0.18); /* Increased transparency */
+  background-color: rgba(255, 255, 255, 0.18);
   border-radius: 12px;
   padding: 1rem;
   text-align: center;
@@ -95,8 +95,8 @@ body {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.18); /* Increased transparency for WeatherInfo card */
-  border: none; /* Remove default border */
+  background-color: rgba(255, 255, 255, 0.18); 
+  border: none; 
 }
 
 .card-body {
@@ -104,6 +104,6 @@ body {
 }
 
 .card-title, .card-text {
-  color: #fff; /* Ensure text is visible against the transparent background */
+  color: #fff; 
 }
 
