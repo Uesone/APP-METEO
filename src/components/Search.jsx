@@ -2,6 +2,12 @@ import React from 'react'
 import { Container, Form, FormControl, Button, Row, Col } from 'react-bootstrap'
 
 function Search({ location, setLocation, searchLocation }) {
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      searchLocation()
+    }
+  }
+
   return (
     <Container>
       <Row className="justify-content-center">
@@ -13,9 +19,9 @@ function Search({ location, setLocation, searchLocation }) {
               className="mr-sm-2"
               value={location}
               onChange={event => setLocation(event.target.value)}
-              onKeyPress={searchLocation}
+              onKeyDown={handleKeyDown}
             />
-            <Button variant="primary" onClick={() => searchLocation({ key: 'Enter' })}>Search</Button>
+            <Button variant="primary" onClick={searchLocation}>Search</Button>
           </Form>
         </Col>
       </Row>
