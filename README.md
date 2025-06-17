@@ -67,5 +67,5 @@ APP-METEO/
 
 ---
 
-## 📄 License
+📄 License
 This project is open source.
