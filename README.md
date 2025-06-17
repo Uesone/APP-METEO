@@ -26,7 +26,7 @@ It allows users to search for any city and retrieve the current weather using th
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="https://github.com/Uesone/APP-METEO/blob/main/appmeteo.png?raw=true" alt="App screenshot" width="500"/>
+  <img src="https://github.com/Uesone/APP-METEO/blob/main/appmeteo.PNG?raw=true" alt="App screenshot" width="500"/>
 </p>
 
 ---
