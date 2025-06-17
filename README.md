@@ -35,11 +35,13 @@ It allows users to search for any city and retrieve the current weather using th
 
 Clone the repository and install dependencies:
 
+```bash
 git clone https://github.com/Uesone/APP-METEO.git
 cd APP-METEO
 npm install
 npm run dev
 
+---
 🔑 API Key Setup
 This app uses the OpenWeatherMap API.
 Create a .env file in the root with your API key:
@@ -49,6 +51,8 @@ Copy
 Edit
 VITE_API_KEY=your_openweathermap_api_key
 You can get a free key by signing up at https://openweathermap.org/api
+
+---
 
 📁 Folder Structure
 
@@ -63,5 +67,7 @@ APP-METEO/
 ├── vite.config.js
 └── ...
 
-📄 License
+---
+
+## 📄 License
 This project is open source.
