@@ -25,9 +25,11 @@ It allows users to search for any city and retrieve the current weather using th
 
 ## 🖼️ Preview
 
-<p align="center">
-  <img src="https://github.com/Uesone/APP-METEO/blob/main/appmeteo.PNG?raw=true" alt="App screenshot" width="500"/>
-</p>
+<div align="center">
+  <img src="https://github.com/Uesone/APP-METEO/blob/main/meteo1.png?raw=true" alt="Meteo screenshot 1" width="32%" style="margin-right:8px;" />
+  <img src="https://github.com/Uesone/APP-METEO/blob/main/meteo2.png?raw=true" alt="Meteo screenshot 2" width="32%" style="margin-right:8px;" />
+  <img src="https://github.com/Uesone/APP-METEO/blob/main/meteo3.png?raw=true" alt="Meteo screenshot 3" width="32%" />
+</div>
 
 ---
 
